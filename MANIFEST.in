@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include payment_advice *.css
+recursive-include payment_advice *.csv
+recursive-include payment_advice *.html
+recursive-include payment_advice *.ico
+recursive-include payment_advice *.js
+recursive-include payment_advice *.json
+recursive-include payment_advice *.md
+recursive-include payment_advice *.png
+recursive-include payment_advice *.py
+recursive-include payment_advice *.svg
+recursive-include payment_advice *.txt
+recursive-exclude payment_advice *.pyc
